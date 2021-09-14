@@ -7,6 +7,7 @@
 //
 // Kleiner Nachteil: Lampen können nicht mehr separat geschaltet werden. Eine einzelne Lampe muss demnach in einer Gruppe organisiert sein
 
+// Geht nur mit deconz adapter v1.3.19
 
 //  1) Datenpunkt any_on wechselt auf true und DP wird in einer Liste gespeichert, falls mehrere any_on-DPs auslösen (Lampe in mehreren Gruppen)
 //  2) Vergleich aller in der Liste befindlichen DPs mit den in der jeweiligen Gruppe vorhandenen all_on-DPs
